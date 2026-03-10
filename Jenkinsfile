@@ -4,7 +4,9 @@ pipeline {
         stage('Clone') {
             steps {
                 git url: 'https://github.com/Meghana-km-05/internals1.git',
-                    branch: 'main'
+                     changelog: false, 
+                     poll: false
+                     branch: 'main'
             }
         }
         stage('Run Script') {
