@@ -1,3 +1,2 @@
-print("first")
-print("second")
-print("third")
+print("hello devops")
+
