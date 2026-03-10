@@ -11,6 +11,8 @@ pipeline {
             steps {
                 sh 'chmod +x script.sh'
                 sh './script.sh'
+                sh 'chmod +x first.py'
+                sh './script.sh'
                 
             }
         }
