@@ -1,2 +1,11 @@
-print("helloo devops")
-print("ehllo")
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
